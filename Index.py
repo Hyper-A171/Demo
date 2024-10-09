@@ -1,5 +1,6 @@
-a = 1
-b = 2
-sum = a+b
-print(sum)
-
+conut = 0 
+finalList = []
+while conut <= 3:
+    finalList.append(input())
+    conut += 1
+print(finalList)
