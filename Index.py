@@ -50,16 +50,39 @@ conut = 100
 
 # table()
 
-def table ():
-    print("Enter Any Number :- \n")
-    n = int(input())
-    i = 1
-    while i <= 10:
-        n*=i+i
+# def table ():
+#     print("Enter Any Number :- \n")
+#     n = int(input())
+#     i = 1
+#     while i <= 10:
+#         n*=i+i
         
-        print(n)
+#         print(n)
         
-        i += 1
+#         i += 1
 
-table()
+# table()
 
+# def usd_in_int (n):
+    
+#     int= n * 83
+#     print(int)
+# usd_in_int(5)
+
+# def odd_ever (n):
+#     if n != 2:
+#         print("Odd Number")
+#     else:
+#         print("Ever Number")
+
+# odd_ever(5)
+
+def calu (a,b):
+    if(n == 1):
+        return
+    sum = a + b
+    print(sum)
+    
+    calu(n-1)
+
+calu(20,30)
